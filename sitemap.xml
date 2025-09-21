@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Page d'accueil anglaise (par défaut) -->
+  <url>
+    <loc>https://brick-scanner.com/</loc>
+    <lastmod>2024-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick-scanner.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick-scanner.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick-scanner.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brick-scanner.com/" />
+  </url>
+  
+  <!-- Page d'accueil française -->
+  <url>
+    <loc>https://brick-scanner.com/fr/</loc>
+    <lastmod>2024-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick-scanner.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick-scanner.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick-scanner.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brick-scanner.com/" />
+  </url>
+  
+  <!-- Page d'accueil anglaise (dans dossier /en/ - redondante avec racine) -->
+  <url>
+    <loc>https://brick-scanner.com/en/</loc>
+    <lastmod>2024-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick-scanner.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick-scanner.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick-scanner.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brick-scanner.com/" />
+  </url>
+  
+  <!-- Page d'accueil espagnole -->
+  <url>
+    <loc>https://brick-scanner.com/es/</loc>
+    <lastmod>2024-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick-scanner.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick-scanner.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick-scanner.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brick-scanner.com/" />
+  </url>
+  
+  <!-- Politique de confidentialité française -->
+  <url>
+    <loc>https://brick-scanner.com/fr/privacy-policy.html</loc>
+    <lastmod>2024-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick-scanner.com/fr/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick-scanner.com/en/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick-scanner.com/es/privacy-policy.html" />
+  </url>
+  
+  <!-- Politique de confidentialité anglaise -->
+  <url>
+    <loc>https://brick-scanner.com/en/privacy-policy.html</loc>
+    <lastmod>2024-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick-scanner.com/fr/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick-scanner.com/en/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick-scanner.com/es/privacy-policy.html" />
+  </url>
+  
+  <!-- Politique de confidentialité espagnole -->
+  <url>
+    <loc>https://brick-scanner.com/es/privacy-policy.html</loc>
+    <lastmod>2024-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick-scanner.com/fr/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick-scanner.com/en/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick-scanner.com/es/privacy-policy.html" />
+  </url>
+  
+</urlset>

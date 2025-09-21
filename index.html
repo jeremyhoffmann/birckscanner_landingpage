@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Brick Scanner - Scan Your LEGO Pieces and Discover Endless Builds</title>
+    <meta name="description" content="Photograph your LEGO pieces and instantly discover all the sets you can build with our intelligent AI recognition. Over 10,000 sets referenced with detailed instructions.">
+    <meta name="keywords" content="LEGO, scanner, AI, recognition, pieces, sets, builds, mobile app, LEGO scanner, artificial intelligence">
+    <meta name="author" content="Brick Scanner">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://brick-scanner.com/">
+    <meta property="og:title" content="Brick Scanner - Scan Your LEGO Pieces and Discover Endless Builds">
+    <meta property="og:description" content="Photograph your LEGO pieces and instantly discover all the sets you can build with our intelligent AI recognition.">
+    <meta property="og:image" content="https://brick-scanner.com/img/og-image-en.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Brick Scanner">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://brick-scanner.com/">
+    <meta name="twitter:title" content="Brick Scanner - Scan Your LEGO Pieces and Discover Endless Builds">
+    <meta name="twitter:description" content="Photograph your LEGO pieces and instantly discover all the sets you can build with our intelligent AI recognition.">
+    <meta name="twitter:image" content="https://brick-scanner.com/img/twitter-card-en.jpg">
+    <meta name="twitter:creator" content="@BrickScanner">
+    <meta name="twitter:site" content="@BrickScanner">
+    
+    <!-- Canonical and Hreflang -->
+    <link rel="canonical" href="https://brick-scanner.com/">
+    <link rel="alternate" hreflang="en" href="https://brick-scanner.com/">
+    <link rel="alternate" hreflang="fr" href="https://brick-scanner.com/fr/">
+    <link rel="alternate" hreflang="es" href="https://brick-scanner.com/es/">
+    <link rel="alternate" hreflang="x-default" href="https://brick-scanner.com/">
+    
+    <!-- Mobile App Links -->
+    <meta name="apple-itunes-app" content="app-id=123456789">
+    <meta name="google-play-app" content="app-id=com.brickscanner.app">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Brick Scanner",
+      "description": "Mobile app that uses artificial intelligence to identify LEGO pieces and suggest possible builds",
+      "url": "https://brick-scanner.com/",
+      "image": "https://brick-scanner.com/img/logo-brickscanner.png",
+      "author": {
+        "@type": "Organization",
+        "name": "Brick Scanner"
+      },
+      "operatingSystem": ["iOS", "Android"],
+      "applicationCategory": "GameApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "2547"
+      },
+      "downloadUrl": [
+        "https://apps.apple.com/app/brick-scanner/id123456789",
+        "https://play.google.com/store/apps/details?id=com.brickscanner.app"
+      ]
+    }
+    </script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="img/logo-brickscanner.png" alt="Brick Scanner Logo" class="logo-img">
+                <span>Brick Scanner</span>
+            </div>
+            <div class="nav-menu">
+                <div class="language-selector">
+                    <select id="languageSelect" onchange="switchLanguage(this.value)">
+                        <option value="en" selected>🇺🇸 English</option>
+                        <option value="fr">🇫🇷 Français</option>
+                        <option value="es">🇪🇸 Español</option>
+                    </select>
+                </div>
+                <button class="nav-btn download-btn">
+                    <i class="fas fa-download"></i>
+                    Download
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Scan your LEGO,<br>
+                    <span class="gradient-text">build your dreams</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Photograph your LEGO pieces and instantly discover all the sets you can build with our intelligent AI recognition.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://apps.apple.com/app/brick-scanner/id123456789" class="download-btn-hero apple" target="_blank" rel="noopener">
+                        <i class="fab fa-apple"></i>
+                        <div>
+                            <span class="small">Download on the</span>
+                            <span class="big">App Store</span>
+                        </div>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.brickscanner.app" class="download-btn-hero google" target="_blank" rel="noopener">
+                        <i class="fab fa-google-play"></i>
+                        <div>
+                            <span class="small">Get it on</span>
+                            <span class="big">Google Play</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">50K+</span>
+                        <span class="stat-label">Downloads</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">99%</span>
+                        <span class="stat-label">Accuracy</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Sets detected</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <img src="" alt="Brick Scanner App Interface" id="appScreenshot">
+                        </div>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-brick brick-1">🟥</div>
+                        <div class="floating-brick brick-2">🟦</div>
+                        <div class="floating-brick brick-3">🟨</div>
+                        <div class="floating-brick brick-4">🟩</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="howItWorks">
+        <div class="container">
+            <h2 class="section-title">How it Works</h2>
+            <p class="section-subtitle">
+                Three simple steps to discover what you can build
+            </p>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>1. Photograph</h3>
+                    <p>Take a photo of your LEGO pieces scattered on a clear surface</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>2. AI analyzes</h3>
+                    <p>Our artificial intelligence identifies and classifies each piece in seconds</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3>3. Build</h3>
+                    <p>Discover all possible sets and follow the building instructions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why choose Brick Scanner?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Precise recognition</h3>
+                    <p>99% accuracy in LEGO piece identification thanks to our advanced AI</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Complete database</h3>
+                    <p>Over 10,000 LEGO sets referenced with detailed instructions</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Instant results</h3>
+                    <p>Real-time analysis, results in less than 3 seconds</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What our users say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"Amazing! I rediscovered my old LEGO thanks to this app. My kids love building new sets."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="" alt="Photo of Marie L.">
+                        <div>
+                            <strong>Marie L.</strong>
+                            <span>Mom of 2 children</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"The recognition is mind-blowing! Even with mixed pieces of different colors, the app always finds possible constructions."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="" alt="Photo of Thomas B.">
+                        <div>
+                            <strong>Thomas B.</strong>
+                            <span>LEGO Collector</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"Perfect for organizing my LEGO collection! The AI recognition is incredibly accurate and fast."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="" alt="Photo of Sarah M.">
+                        <div>
+                            <strong>Sarah M.</strong>
+                            <span>LEGO Enthusiast</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="cta-title">Ready to rediscover your LEGO?</h2>
+            <p class="cta-subtitle">Download Brick Scanner now and start your adventure</p>
+            <div class="cta-buttons">
+                <a href="https://apps.apple.com/app/brick-scanner/id123456789" class="download-btn-hero apple" target="_blank" rel="noopener">
+                    <i class="fab fa-apple"></i>
+                    <div>
+                        <span class="small">Download on the</span>
+                        <span class="big">App Store</span>
+                    </div>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.brickscanner.app" class="download-btn-hero google" target="_blank" rel="noopener">
+                    <i class="fab fa-google-play"></i>
+                    <div>
+                        <span class="small">Get it on</span>
+                        <span class="big">Google Play</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="img/logo-brickscanner.png" alt="Brick Scanner Logo" class="logo-img">
+                        <span>Brick Scanner</span>
+                    </div>
+                    <p>The app that revolutionizes your LEGO experience</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:contact@brick-scanner.com" class="contact-email">contact@brick-scanner.com</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Brick Scanner. All rights reserved.</p>
+                <p>LEGO® is a trademark of the LEGO Group. This app is not affiliated with LEGO.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        // Language switching function
+        function switchLanguage(lang) {
+            // Detect if running locally (file://) or on a server
+            const isLocal = window.location.protocol === 'file:';
+            
+            let urls;
+            if (isLocal) {
+                // Local file URLs
+                const basePath = window.location.pathname.replace('/index.html', '');
+                urls = {
+                    'en': basePath + '/index.html',
+                    'fr': basePath + '/fr/index.html',
+                    'es': basePath + '/es/index.html'
+                };
+            } else {
+                // Server URLs
+                urls = {
+                    'en': '/',
+                    'fr': '/fr/',
+                    'es': '/es/'
+                };
+            }
+            
+            if (urls[lang]) {
+                window.location.href = urls[lang];
+            }
+        }
+    </script>
+    <script src="script-en.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Brick Scanner - Scannez vos LEGO et découvrez des constructions infinies</title>
+    <meta name="description" content="Photographiez vos pièces LEGO et découvrez instantanément tous les sets que vous pouvez construire grâce à notre IA de reconnaissance intelligente.">
+    <meta name="keywords" content="LEGO, scanner, IA, reconnaissance, pièces, sets, constructions, application mobile">
+    
+    <!-- Canonical and Hreflang -->
+    <link rel="canonical" href="https://brick-scanner.com/">
+    <link rel="alternate" hreflang="fr" href="https://brick-scanner.com/fr/">
+    <link rel="alternate" hreflang="en" href="https://brick-scanner.com/en/">
+    <link rel="alternate" hreflang="es" href="https://brick-scanner.com/es/">
+    <link rel="alternate" hreflang="x-default" href="https://brick-scanner.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+        }
+        .language-selector {
+            text-align: center;
+            background: white;
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(220, 38, 38, 0.1);
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 2rem;
+            background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: white;
+        }
+        h1 {
+            margin-bottom: 1rem;
+            color: #1f2937;
+            font-size: 2rem;
+        }
+        p {
+            margin-bottom: 2rem;
+            color: #6b7280;
+        }
+        .lang-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .lang-btn {
+            padding: 1rem 2rem;
+            border: 2px solid #dc2626;
+            background: white;
+            color: #dc2626;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .lang-btn:hover {
+            background: #dc2626;
+            color: white;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="language-selector">
+        <div class="logo">🧱</div>
+        <h1>Brick Scanner</h1>
+        <p>Choisissez votre langue / Choose your language / Elige tu idioma</p>
+        <div class="lang-buttons">
+            <a href="fr/" class="lang-btn">
+                🇫🇷 Français
+            </a>
+            <a href="en/" class="lang-btn">
+                🇺🇸 English
+            </a>
+            <a href="es/" class="lang-btn">
+                🇪🇸 Español
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Auto-redirect based on browser language
+        function detectAndRedirect() {
+            const userLang = navigator.language || navigator.userLanguage;
+            const langCode = userLang.split('-')[0];
+            
+            const supportedLangs = {
+                'fr': '/fr/',
+                'en': '/en/',
+                'es': '/es/'
+            };
+            
+            // Only auto-redirect if it's the first visit (no hash in URL)
+            if (!window.location.hash) {
+                const redirectUrl = supportedLangs[langCode] || '/fr/';
+                // Add a small delay to show the language selector briefly
+                setTimeout(() => {
+                    window.location.href = redirectUrl;
+                }, 1500);
+            }
+        }
+        
+        // Run detection
+        detectAndRedirect();
+    </script>
+</body>
+</html>
