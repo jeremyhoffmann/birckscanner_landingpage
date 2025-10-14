@@ -5,7 +5,7 @@
   <!-- Page d'accueil anglaise (par défaut) -->
   <url>
     <loc>https://brick-scanner.com/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://brick-scanner.com/" />
@@ -17,7 +17,7 @@
   <!-- Page d'accueil française -->
   <url>
     <loc>https://brick-scanner.com/fr/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://brick-scanner.com/" />
@@ -29,7 +29,7 @@
   <!-- Page d'accueil anglaise (dans dossier /en/ - redondante avec racine) -->
   <url>
     <loc>https://brick-scanner.com/en/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://brick-scanner.com/" />
@@ -41,7 +41,7 @@
   <!-- Page d'accueil espagnole -->
   <url>
     <loc>https://brick-scanner.com/es/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://brick-scanner.com/" />
@@ -53,7 +53,7 @@
   <!-- Politique de confidentialité française -->
   <url>
     <loc>https://brick-scanner.com/fr/privacy-policy.html</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://brick-scanner.com/fr/privacy-policy.html" />
@@ -64,7 +64,7 @@
   <!-- Politique de confidentialité anglaise -->
   <url>
     <loc>https://brick-scanner.com/en/privacy-policy.html</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://brick-scanner.com/fr/privacy-policy.html" />
@@ -75,7 +75,7 @@
   <!-- Politique de confidentialité espagnole -->
   <url>
     <loc>https://brick-scanner.com/es/privacy-policy.html</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://brick-scanner.com/fr/privacy-policy.html" />

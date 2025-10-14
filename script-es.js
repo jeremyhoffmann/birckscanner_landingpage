@@ -180,40 +180,18 @@ function setupAvatarPlaceholders() {
 // Download button functionality
 document.querySelectorAll('.download-btn-hero, .download-btn').forEach(btn => {
   btn.addEventListener('click', function(e) {
-    e.preventDefault();
-    
     // Add ripple effect
     const ripple = document.createElement('span');
     ripple.classList.add('ripple');
     this.appendChild(ripple);
-    
-    // Show download message
-    const isApple = this.classList.contains('apple');
-    const store = isApple ? 'App Store' : 'Google Play';
-    
-    // Create temporary message
-    const message = document.createElement('div');
-    message.style.cssText = `
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background: var(--text-dark);
-      color: white;
-      padding: 1rem 2rem;
-      border-radius: var(--border-radius);
-      z-index: 10000;
-      font-weight: 600;
-      box-shadow: var(--shadow);
-    `;
-    message.textContent = `Redirigiendo a ${store}...`;
-    document.body.appendChild(message);
-    
-    // Remove message and ripple after animation
+
+    // Remove ripple after animation
     setTimeout(() => {
-      message.remove();
       ripple.remove();
-    }, 2000);
+    }, 600);
+
+    // Allow normal navigation to occur
+    // No preventDefault() call, so the link will work normally
   });
 });
 

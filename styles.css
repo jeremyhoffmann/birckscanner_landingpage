@@ -332,32 +332,76 @@ body {
 
 .floating-brick {
   position: absolute;
-  font-size: 2rem;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
   animation: floatBrick 4s ease-in-out infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0;
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.2),
+    inset 0 2px 4px rgba(255, 255, 255, 0.3);
+  position: relative;
+}
+
+.floating-brick::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 8px;
+  border-radius: 50%;
+  box-shadow:
+    inset 0 2px 4px rgba(0, 0, 0, 0.2),
+    0 1px 2px rgba(255, 255, 255, 0.5);
 }
 
 .brick-1 {
   top: 10%;
   left: -10%;
   animation-delay: 0s;
+  background: linear-gradient(145deg, #dc2626, #b91c1c);
+}
+
+.brick-1::before {
+  background: linear-gradient(145deg, #ef4444, #dc2626);
 }
 
 .brick-2 {
-  top: 70%;
-  right: -15%;
+  top: 80%;
+  right: -100%;
   animation-delay: 1s;
+  background: linear-gradient(145deg, #2563eb, #1d4ed8);
+}
+
+.brick-2::before {
+  background: linear-gradient(145deg, #3b82f6, #2563eb);
 }
 
 .brick-3 {
-  bottom: 20%;
-  left: -8%;
+  top: 23%;
+  left: 0%;
   animation-delay: 2s;
+  background: linear-gradient(145deg, #eab308, #ca8a04);
+}
+
+.brick-3::before {
+  background: linear-gradient(145deg, #facc15, #eab308);
 }
 
 .brick-4 {
   top: 40%;
-  right: -12%;
+  right: -90%;
   animation-delay: 3s;
+  background: linear-gradient(145deg, #16a34a, #15803d);
+}
+
+.brick-4::before {
+  background: linear-gradient(145deg, #22c55e, #16a34a);
 }
 
 @keyframes floatBrick {
