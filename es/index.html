@@ -3,52 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- SEO Meta Tags -->
-    <title>Brick Scanner - Escanea tus LEGO y Descubre Construcciones Infinitas</title>
-    <meta name="description" content="Fotografía tus piezas LEGO y descubre instantáneamente todos los sets que puedes construir con nuestro reconocimiento IA inteligente. Más de 10,000 sets referenciados.">
+    <title>Escáner IA LEGO - Detecta y Escanea Piezas LEGO para Encontrar Sets</title>
+    <meta name="description" content="App escáner LEGO con IA que identifica tus piezas LEGO instantáneamente. Escanea ladrillos para encontrar sets que puedes construir con instrucciones detalladas. 99% precisión.">
     <meta name="keywords" content="LEGO, escáner, IA, reconocimiento, piezas, sets, construcciones, aplicación móvil, escáner LEGO, inteligencia artificial">
     <meta name="author" content="Brick Scanner">
     <meta name="robots" content="index, follow">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://brick-scanner.com/es/">
     <meta property="og:title" content="Brick Scanner - Escanea tus LEGO y Descubre Construcciones Infinitas">
     <meta property="og:description" content="Fotografía tus piezas LEGO y descubre instantáneamente todos los sets que puedes construir con nuestro reconocimiento IA inteligente.">
-    <meta property="og:image" content="https://brick-scanner.com/img/og-image-es.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:locale" content="es_ES">
     <meta property="og:site_name" content="Brick Scanner">
-    
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://brick-scanner.com/es/">
     <meta name="twitter:title" content="Brick Scanner - Escanea tus LEGO y Descubre Construcciones Infinitas">
     <meta name="twitter:description" content="Fotografía tus piezas LEGO y descubre instantáneamente todos los sets que puedes construir con nuestro reconocimiento IA inteligente.">
-    <meta name="twitter:image" content="https://brick-scanner.com/img/twitter-card-es.jpg">
     <meta name="twitter:creator" content="@BrickScanner">
     <meta name="twitter:site" content="@BrickScanner">
-    
+
     <!-- Canonical and Hreflang -->
     <link rel="canonical" href="https://brick-scanner.com/es/">
     <link rel="alternate" hreflang="en" href="https://brick-scanner.com/">
     <link rel="alternate" hreflang="fr" href="https://brick-scanner.com/fr/">
     <link rel="alternate" hreflang="es" href="https://brick-scanner.com/es/">
+    <link rel="alternate" hreflang="de" href="https://brick-scanner.com/de/">
     <link rel="alternate" hreflang="x-default" href="https://brick-scanner.com/">
-    
+
     <!-- Mobile App Links -->
-    <meta name="apple-itunes-app" content="app-id=6751249486">
-    <meta name="google-play-app" content="app-id=com.bluedust.brickscanner">
-    
+    <meta name="apple-itunes-app" content="app-id=123456789">
+    <meta name="google-play-app" content="app-id=com.brickscanner.app">
+
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
     <link rel="manifest" href="../site.webmanifest">
-    
+
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
     {
@@ -80,7 +79,7 @@
       ]
     }
     </script>
-    
+
     <!-- Styles -->
     <link rel="stylesheet" href="../styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -97,9 +96,10 @@
             <div class="nav-menu">
                 <div class="language-selector">
                     <select id="languageSelect" onchange="switchLanguage(this.value)">
-                        <option value="fr">🇫🇷 Français</option>
                         <option value="en">🇺🇸 English</option>
+                        <option value="fr">🇫🇷 Français</option>
                         <option value="es" selected>🇪🇸 Español</option>
+                        <option value="de">🇩🇪 Deutsch</option>
                     </select>
                 </div>
                 <a href="https://onelink.to/56hzqk" class="nav-btn download-btn" target="_blank" rel="noopener">
@@ -120,11 +120,11 @@
         <div class="hero-container">
             <div class="hero-content">
                 <h1 class="hero-title">
-                    Escanea tus LEGO,<br>
-                    <span class="gradient-text">construye tus sueños</span>
+                    Escáner IA LEGO:<br>
+                    <span class="gradient-text">Detecta piezas lego, construye sets personalizados </span>
                 </h1>
                 <p class="hero-subtitle">
-                    Fotografía tus piezas LEGO y descubre instantáneamente todos los sets que puedes construir con nuestro reconocimiento IA inteligente.
+                    La app escáner LEGO definitiva que usa inteligencia artificial para identificar piezas LEGO y descubrir qué sets puedes construir. Perfecto para padres, coleccionistas y constructores MOC que quieren escanear ladrillos y encontrar infinitas posibilidades de construcción.
                 </p>
                 <div class="hero-buttons">
                     <a href="https://apps.apple.com/us/app/brick-scanner-detect-build/id6751249486" class="download-btn-hero apple" target="_blank" rel="noopener">
@@ -165,10 +165,10 @@
                         </div>
                     </div>
                     <div class="floating-elements">
-                        <div class="floating-brick brick-1">🟥</div>
-                        <div class="floating-brick brick-2">🟦</div>
-                        <div class="floating-brick brick-3">🟨</div>
-                        <div class="floating-brick brick-4">🟩</div>
+                        <div class="floating-brick brick-1">⬜</div>
+                        <div class="floating-brick brick-2">⬜</div>
+                        <div class="floating-brick brick-3">⬜</div>
+                        <div class="floating-brick brick-4">⬜</div>
                     </div>
                 </div>
             </div>
@@ -178,7 +178,7 @@
     <!-- How It Works Section -->
     <section class="how-it-works" id="howItWorks">
         <div class="container">
-            <h2 class="section-title">Cómo funciona</h2>
+            <h2 class="section-title">Cómo Funciona Nuestro Detector LEGO</h2>
             <p class="section-subtitle">
                 Tres pasos simples para descubrir qué puedes construir
             </p>
@@ -187,21 +187,21 @@
                     <div class="step-icon">
                         <i class="fas fa-camera"></i>
                     </div>
-                    <h3>1. Fotografía</h3>
+                    <h3>1. Escanear Piezas LEGO</h3>
                     <p>Toma una foto de tus piezas LEGO esparcidas en una superficie clara</p>
                 </div>
                 <div class="step">
                     <div class="step-icon">
                         <i class="fas fa-brain"></i>
                     </div>
-                    <h3>2. IA analiza</h3>
+                    <h3>2. Reconocimiento IA</h3>
                     <p>Nuestra inteligencia artificial identifica y clasifica cada pieza en segundos</p>
                 </div>
                 <div class="step">
                     <div class="step-icon">
                         <i class="fas fa-puzzle-piece"></i>
                     </div>
-                    <h3>3. Construye</h3>
+                    <h3>3. Encuentra Tus Sets</h3>
                     <p>Descubre todos los sets posibles y sigue las instrucciones de construcción</p>
                 </div>
             </div>
@@ -211,28 +211,28 @@
     <!-- Features Section -->
     <section class="features">
         <div class="container">
-            <h2 class="section-title">¿Por qué elegir Brick Scanner?</h2>
+            <h2 class="section-title">Mejor App para Detectar Ladrillos LEGO</h2>
             <div class="features-grid">
                 <div class="feature">
                     <div class="feature-icon">
                         <i class="fas fa-eye"></i>
                     </div>
-                    <h3>Reconocimiento preciso</h3>
-                    <p>99% de precisión en la identificación de piezas LEGO gracias a nuestra IA avanzada</p>
+                    <h3>Escáner Avanzado de Piezas LEGO</h3>
+                    <p>Nuestro detector IA LEGO identifica cada pieza con 99% de precisión. Simplemente escanea piezas LEGO para desbloquear su potencial de construcción.</p>
                 </div>
                 <div class="feature">
                     <div class="feature-icon">
                         <i class="fas fa-database"></i>
                     </div>
-                    <h3>Base de datos completa</h3>
-                    <p>Más de 10,000 sets LEGO referenciados con instrucciones detalladas</p>
+                    <h3>Base de Datos Completa de Sets LEGO</h3>
+                    <p>Accede a 10,000+ sets LEGO con instrucciones detalladas. Encuentra set lego por piezas en tu colección instantáneamente.</p>
                 </div>
                 <div class="feature">
                     <div class="feature-icon">
                         <i class="fas fa-bolt"></i>
                     </div>
-                    <h3>Resultados instantáneos</h3>
-                    <p>Análisis en tiempo real, resultados en menos de 3 segundos</p>
+                    <h3>Detección LEGO Instantánea</h3>
+                    <p>Mejor app para detectar ladrillos LEGO con análisis en tiempo real. Obtén resultados en menos de 3 segundos y comienza a construir inmediatamente.</p>
                 </div>
             </div>
         </div>
@@ -281,6 +281,40 @@
                             <span>Entusiasta LEGO</span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Preguntas Frecuentes Sobre Escaneo LEGO</h2>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>¿Cómo funciona la app escáner LEGO?</h3>
+                    <p>Nuestro detector IA LEGO usa visión por computadora avanzada para escanear piezas LEGO desde una foto. Simplemente fotografía tus piezas, y nuestro escáner de piezas lego identificará cada ladrillo y sugerirá sets compatibles que puedes construir.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>¿Puedo encontrar set LEGO por piezas en mi colección?</h3>
+                    <p>¡Sí! Toma una foto de tus piezas LEGO, y nuestra app escaneará ladrillos para encontrar coincidencias de sets. Te mostraremos todas las construcciones posibles de nuestra base de datos de 10,000+ sets LEGO con instrucciones paso a paso.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>¿Qué hace esta la mejor app para detectar ladrillos LEGO?</h3>
+                    <p>Nuestro detector de piezas LEGO combina tecnología IA con tasas de precisión del 99%. La app funciona instantáneamente, soporta escaneo MOC, y ayuda a identificar piezas LEGO incluso en colecciones mixtas de diferentes colores y temas.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>¿Qué puedo construir con mi colección LEGO?</h3>
+                    <p>Nuestro escáner lego moc analiza tus piezas y sugiere sets oficiales, MOCs personalizados, y construcciones creativas. Padres e hijos disfrutan descubriendo nuevas posibilidades, mientras que coleccionistas pueden optimizar su inventario LEGO existente.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>¿Es gratis usar el escáner LEGO?</h3>
+                    <p>¡Sí! Descarga nuestra app escáner lego gratuita y comienza a escanear inmediatamente. No se requiere suscripción para escanear piezas lego y acceder a sugerencias básicas de construcción. Las características premium desbloquean detección MOC avanzada y base de datos de sets expandida.</p>
                 </div>
             </div>
         </div>
@@ -345,7 +379,7 @@
         function switchLanguage(lang) {
             // Detect if running locally (file://) or on a server
             const isLocal = window.location.protocol === 'file:';
-            
+
             let urls;
             if (isLocal) {
                 // Local file URLs - go up one level from es/ folder
@@ -353,17 +387,19 @@
                 urls = {
                     'en': basePath + '/index.html',
                     'fr': basePath + '/fr/index.html',
-                    'es': basePath + '/es/index.html'
+                    'es': basePath + '/es/index.html',
+                    'de': basePath + '/de/index.html'
                 };
             } else {
                 // Server URLs
                 urls = {
                     'en': '/',
                     'fr': '/fr/',
-                    'es': '/es/'
+                    'es': '/es/',
+                    'de': '/de/'
                 };
             }
-            
+
             if (urls[lang]) {
                 window.location.href = urls[lang];
             }
